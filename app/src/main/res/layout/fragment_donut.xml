@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonutFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="650dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#B28DBA">
+
+        <TextView
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="88dp"
+            android:text="Donuts "
+            android:textColor="#000"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="499dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/donutss" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="333dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="355dp"
+            android:layout_marginRight="10dp"
+            android:text="Um donut, doughnut,
+dónute, rosca ou rosquinha é um pequeno bolo em forma de rosca,
+popular nos Estados Unidos e de origem incerta. Consiste numa massa
+açucarada frita, que pode ser coberta com diversos tipos de cobertura doce e
+colorida, como por exemplo chocolate "
+            android:textColor="#000"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

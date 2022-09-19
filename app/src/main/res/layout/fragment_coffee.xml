@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoffeeFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="650dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#55230c">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="88dp"
+            android:text="Coffee "
+            android:textColor="#000"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="499dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/cafee" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="333dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="355dp"
+            android:layout_marginRight="10dp"
+            android:text="O café é uma bebida
+produzida a partir dos grãos torrados do fruto do cafeeiro. É servido
+tradicionalmente quente, mas também pode ser consumido gelado. O café é
+um estimulante, por possuir cafeína "
+            android:textColor="#000"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
